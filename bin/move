@@ -10,4 +10,4 @@ require_relative '../lib/move.rb'
  input_to_index(input)
  index = input
 
- move (index)
+ move (board, index, char)
